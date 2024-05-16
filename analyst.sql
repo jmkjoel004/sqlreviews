@@ -31,7 +31,7 @@ VALUES
     ('Travis Scott', 'American', 30, 'Hip-hop', 'Rodeo', 'Utopia', 'No', 0, 'Yes', 3, 'Yes', 2, 'Yes', 1, 'No', 0),
     ('Justin Bieber', 'Canadian', 28, 'Pop', 'My World 2.0', 'Justice', 'No', 0, 'Yes', 4, 'Yes', 1, 'Yes', 3, 'No', 0),
     ('Dadju', 'French', 30, 'R&B', 'Gentleman 2.0', 'Poison ou antidote', 'Yes', 1, 'Yes', 2, 'No', 0, 'Yes', 1, 'No', 0),
-    ('Gims', 'French', 35, 'Hip-hop', 'Subliminal', 'Le Fléau', 'Yes', 1, 'Yes', 3, 'No', 0, 'Yes', 2, 'No', 0),
+    ('Gims', 'French-Congolese', 35, 'Hip-hop', 'Subliminal', 'Le Fléau', 'Yes', 1, 'Yes', 3, 'No', 0, 'Yes', 2, 'No', 0),
     ('The Weeknd', 'Canadian', 32, 'R&B', 'Kiss Land', 'After Hours', 'No', 0, 'Yes', 4, 'Yes', 1, 'Yes', 2, 'No', 0),
     ('Taylor Swift', 'American', 32, 'Pop', 'Taylor Swift', 'Red (Taylor''s Version)', 'No', 0, 'Yes', 5, 'No', 0, 'Yes', 4, 'No', 0),
     ('Selena Gomez', 'American', 29, 'Pop', 'Stars Dance', 'Rare', 'No', 0, 'Yes', 3, 'Yes', 1, 'Yes', 2, 'No', 0),
