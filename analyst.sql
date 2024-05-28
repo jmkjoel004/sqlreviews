@@ -45,3 +45,10 @@ VALUES
     ('Tayc', 'French', 31, 'R&B', 'Nyxia. Tome I', 'Fleur Froide', 'Yes', 1, 'No', 0, 'No', 0, 'Yes', 2, 'No', 0),
     ('Rema', 'Nigerian', 21, 'Afrobeats', 'Rema Compilation', 'Rave & Roses', 'No', 0, 'Yes', 1, 'Yes', 1, 'No', 0, 'No', 0),
     ('Anitta', 'Brazilian', 29, 'Pop', 'Anitta', 'Girl from Rio', 'Yes', 1, 'Yes', 2, 'Yes', 1, 'Yes', 2, 'No', 0);
+
+----------------------------------------------------------------------------
+
+-- Search for all the data in the alphabetical order of the name.
+SELECT *
+FROM celebrities_Tours
+ORDER BY name ASC;
