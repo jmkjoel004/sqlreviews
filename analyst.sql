@@ -67,7 +67,7 @@ ORDER BY numberOfAfricaTours DESC;
 
 -- select all the nationality
 
-SELECT DISTINCT(nationality) AS nationality , COUNT(nationality) numbers
+SELECT DISTINCT(nationality) AS nationality , COUNT(nationality) AS numbers
 FROM celebrities_Tours
 Group by nationality 
 ORDER by nationality;
