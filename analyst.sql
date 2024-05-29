@@ -52,3 +52,12 @@ VALUES
 SELECT *
 FROM celebrities_Tours
 ORDER BY name ASC;
+
+---------------------------
+
+-- all names that have been in Africa 
+
+SELECT name, numberOfAfricaTours
+FROM celebrities_Tours
+WHERE africaTours = 'yes'
+ORDER BY numberOfAfricaTours DESC;
