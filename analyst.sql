@@ -57,7 +57,18 @@ ORDER BY name ASC;
 
 -- all names that have been in Africa 
 
-SELECT name, numberOfAfricaTours
+SELECT name, nationality, numberOfAfricaTours
 FROM celebrities_Tours
-WHERE africaTours = 'yes'
+WHERE numberOfAfricaTours >= 1 
+Group by name
 ORDER BY numberOfAfricaTours DESC;
+
+--------
+
+-- select all the nationality
+
+SELECT DISTINCT(nationality) AS nationality , COUNT(nationality) numbers
+FROM celebrities_Tours
+Group by nationality 
+ORDER by nationality;
+
