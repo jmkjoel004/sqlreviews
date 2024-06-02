@@ -80,7 +80,7 @@ WHERE typeOfMusic LIKE '%hop%';
 
 -------------
 
--- select all the africains and theirs countries 
+-- select all the North American countries 
 
 SELECT name
 FROM celebrities_Tours
