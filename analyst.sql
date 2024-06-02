@@ -78,3 +78,10 @@ SELECT name
 FROM celebrities_Tours
 WHERE typeOfMusic LIKE '%hop%';
 
+-------------
+
+-- select all the africains and theirs countries 
+
+SELECT name
+FROM celebrities_Tours
+WHERE nationality IN ('american', 'canadian');
