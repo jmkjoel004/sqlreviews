@@ -84,4 +84,4 @@ WHERE typeOfMusic LIKE '%hop%';
 
 SELECT name
 FROM celebrities_Tours
-WHERE nationality IN ('american', 'canadian');
+WHERE nationality IN ('American', 'Canadian');
